@@ -2,7 +2,9 @@
   --greyDark: #5A6268;
 }
 
-
+.customFont {
+  font-family: "Sofia", sans-serif;
+}
 
 @media (max-width: 768px) {
   .stickyNav {
