@@ -11,18 +11,27 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"
     defer></script>
+  <link rel="shortcut icon" href="https://codeworks.blob.core.windows.net/public/assets/img/cw-logo-circle.png"
+    type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <title>Checkpoint 1 | Sam </title>
+  <title>Hello CodeWorks!</title>
 </head>
 
 <body>
 
   <header>
     <!-- SECTION Sticky Navbar on Mobile -->
-    <div class="stickyNav container-fluid">
-      <div class="row bg-secondary d-flex">
-        <h1 class="col-2 col-md-1 col mdi mdi-alpha-g-circle fs-1 mb-0 text-center d-flex"></h1>
-        <span class="col-3 col-md-1 text-center d-flex">Gross Website</span>
+    <div class="stickyNav container-fluid ">
+      <div class="border border-3 border-dark row bg-secondary d-flex"
+        style="background-image: url('resources/Header.png');">
+        <div class="col-1 mb-1 align-self-center"><img src="/resources/triforce.png" alt=""
+            style="height: 35px; width: 35px;"></div>
+        <span class="col-3 col-md-2 text-center d-flex text-light align-self-center text-nowrap d-none d-md-block">
+          <p>Welcome Desktop User, Try my Mobile Mode!</p>
+        </span>
+        <span class="col-3 col-md-2 text-center d-flex text-light align-self-center text-nowrap">
+          <p class="gone-1">Welcome Mobile User</p>
+        </span>
       </div>
     </div>
   </header>
@@ -31,25 +40,25 @@
     <div class="container-fluid">
 
       <div class="row justify-content-around"
-        style="background-image: url('https://cdn.pixabay.com/photo/2018/06/24/08/01/dark-background-3494082_960_720.jpg'); height: 20rem">
+        style="background-image: url('resources/Websitebackground.png'); height: 20rem">
         <!-- SECTION Card -->
         <div class="col-12 col-md-4  d-flex  p-5 mt-2">
-          <div class="card">
+          <div class="card text-bg-secondary text-dark">
             <div class="card-body">
               <h5 class="card-title">User Information</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Give us marketing info pls</h6>
+              <h6 class="card-subtitle mb-2 text-dark">Input Details Here</h6>
               <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                <span class="input-group-text" id="inputGroup-sizing-default">Username</span>
                 <input type="text" class="form-control" aria-label="Sizing example input"
                   aria-describedby="inputGroup-sizing-default">
               </div>
               <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
                 <input type="text" class="form-control" aria-label="Sizing example input"
                   aria-describedby="inputGroup-sizing-default">
               </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">SSN</span>
+              <div class="input-group mb-3" aria-placeholder="Probably">
+                <span class="input-group-text" id="inputGroup-sizing-default">Favorite Pizza</span>
                 <input type="text" class="form-control" aria-label="Sizing example input"
                   aria-describedby="inputGroup-sizing-default">
               </div>
@@ -57,27 +66,40 @@
           </div>
         </div>
         <!-- SECTION Text Vanish on Mobile -->
-        <div class="col-4 text-primary d-none d-md-block pt-5 border-start">Yes I know this looks bad BUT! it does
-          everything its supposed to
+        <div
+          class="card col-4 text-dark d-none d-md-block pt-5 text-bg-secondary align-self-center d-flex border border-dark border-3 text-center"
+          style="height: 12rem; width: 16rem;">
+          <h1>Hello!</h1>Hey there! This isn't going to exist if you try it in mobile, go on try
+          It I can assure you it will work
         </div>
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row bg-success">
-        <div class="kent-1 col-md-5 col-sm-6">
-          <h3>Lorem ipsum dolor sit amet.</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vero, ut, porro natus modi consequatur
-            illo pariatur, omnis ipsum dolorum voluptates eum error rem nesciunt?</p>
+      <div class="row bg-success border border-3 border-dark">
+        <div class="roe2 kent-1 col-md-5 col-sm-6">
+          <h3>Hello CodeWorks!</h3>
+          <p>Enjoy some music while grading below, Here is my basic demonstration of HTML, CSS, and Bootstrap 5.2.0 I
+            hope I have no grid violations! glhf
+            with grading :D</p>
+          <div class="col d-none d-md-block bp-2"><iframe width="300px" height="250px"
+              src="https://www.youtube.com/embed/y4X7opDapyE" title="Yoshi's Story Soundtrack - Yo-Yo-Yoshi!"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
         </div>
         <!-- SECTION Spilt Card  -->
         <div class="col-md-5 col-sm-5">
-          <div class="kard-1 d-flex card">
+          <div class="kard-1 d-flex card text-bg-secondary text-dark text-center">
             <div class="card-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat iste! Officia vel perspiciatis amet
-              ad placeat iusto velit repellat saepe? Tenetur magnam sequi minima consectetur culpa et debitis ut
-              repellat accusantium dolore officia magni ex quae, excepturi molestias ipsum fugit aut eum itaque, odio
-              aliquam adipisci. Dolorum culpa nemo nobis et, eaque, deserunt fuga pariatur, cumque repudiandae quas
-              officiis? Sorry I didn't mean to spill out like that just kidding I really did it was required after all.
+              <h1><strong>As you can See...</strong></h1>
+              <p class="d-none d-md-block">This is Going into the row below as per your request alright
+                heres
+                some Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum culpa officia nisi, quasi a
+                sapiente, quod distinctio voluptate vitae eum hic natus non, tenetur laboriosam!</p>
+              <p class="gone-1">You are now on the mobile version of this tech demo.
+                some Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum culpa officia nisi, quasi a
+                sapiente, quod distinctio voluptate vitae eum hic natus non, tenetur laboriosam!</p>
             </div>
           </div>
         </div>
@@ -91,20 +113,26 @@
     </div>
     <!-- SECTION Ordered Cards -->
     <div class="container-fluid">
-      <div class="row bg-light mb-2">
+      <div class="row bg-light">
         <div class="col-md-5 col-sm-6 d-flex pic-center mt-2" style="padding: 0;"><img
             src="https://i.kym-cdn.com/photos/images/newsfeed/001/394/314/c62.jpg" style="height: 300px; width: 225px;"
             alt="missingTexture"></div>
-        <div class="mt-5 col-md-5 col-sm-6 bg-secondary">
-          <h1 class="mdi mdi-pizza fs-1 mb-0 text-center d-flex"></h1>
-          Holy heck is that a friggin mt-5 margin?!?! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-          nobis minima possimus.
+        <div class="mt-5 col-md-5 col-sm-6 bg-success mb-5 text-center">
+          <h1 class="mdi mdi-pizza fs-1 text-center d-flex text-center align-self-center"></h1>
+          <h1 class="d-none d-md-block">This Card above me really needs to get out of my purple circle</h1>
+          <p class="d-none d-md-block">luckily I have mt-5 to help me out with this issue, thanks Code Works for showin'
+            me how! <strong>Also, if you are on mobile my text will change!</strong></p>
+          <h1 class="gone-1">If you're seeing this...</h1>
+          <p class="gone-1">you are on mobile! The previous text was replaced by this you can
+            try it out if you'd like</p>
         </div>
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row justify-content-around align-items-center bg-secondary">
-        <div class="card col-md-2 col-sm-5 orderCheck mb-3 bg-light">Lorem ipsum dolor sit amet consectetur adipisicing
+      <div class="row justify-content-around align-items-center bg-success border border-dark border-3">
+        <div class="card col-md-2 col-sm-5 orderCheck mb-3 bg-secondary text-center">Lorem ipsum dolor sit amet
+          consectetur
+          adipisicing
           elit.
           Reprehenderit, magni? Oh my gosh guys I just love lorem ipsum so much it is so
           useful
@@ -113,13 +141,13 @@
           me tell ya...
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis?
         </div>
-        <div class="card col-md-2 col-sm-5 fs-5 mb-3 bg-primary">
-          <h1 class="mdi mdi-pizza mdi mdi-pizza mdi mdi-pizza mt-3 text-center"></h1>
-          NOW LET ME TELL YOU A LITTLE ABOUT Lorem Ipsum This stuff has been around
-          since the 1500's
-          that is WILD!!! no one has the reputation of being useless yet still known for centuries
+        <div class="card col-md-2 col-sm-5 fs-5 mb-3 bg-warning mt-3 text-center">
+          <h1 class="mdi mdi-pizza mdi mdi-pizza mdi mdi-pizza mt-3 d-flex text-center align-self-center"></h1>
+          I JUST REALLY WANTED TO LET YOU KNOW THAT THIS CARD RIGHT HERE YES THIS ONE WILL IN FACT BE ON TOP IN MOBILE
+          MODE ALSO Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </div>
-        <div class="card col-md-2 col-sm-5 mb-3 bg-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <div class="card col-md-2 col-sm-5 mb-3 bg-secondary text-center">Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit.
           Assumenda,
           qui! I ran out of things to say about lorem ipsum, uhh do you guys think
           lorem likes to
@@ -129,13 +157,12 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row bg-success">
-        <div class="col-12 fs-1 mt-3">
-          <h1>Thank you so much</h1>
-          Thank you for checking out my totally sick website, believe it or not this is
-          my first
-          time for real 😎
+      <div class="row bg-muted border border-3 border-dark">
+        <div class="col-md-12 fs-1 mt-3">
+          <h1>Thank you CodeWorks</h1>
+          Building this website was really fun and engaging, looking forward to more!
         </div>
+        <div class="col-6 d-none d-md-block"><img src="/resources/codeworksmybeloved.gif" alt="brokenPlsFix"></div>
       </div>
     </div>
   </main>
@@ -143,9 +170,9 @@
   <footer>
     <div class="container-fluid">
       <div class="row bg-secondary" style="height: 8vh;">
-        <div class="col-4 text-center">Thank you so much</div>
-        <div class="col-4 text-center">For Grading my Scuffed Site</div>
-        <div class="col-4 text-center">I'll get better at styling I promise <strong class="text-danger">-
+        <div class="col-4 text-center">CodeWorks Rocks</div>
+        <div class="col-4 text-center">if(grid=violated){sam = sorry}</div>
+        <div class="col-4 text-center">My styling will improve I swear <strong class="text-danger">-
             Sam</strong>
         </div>
       </div>
